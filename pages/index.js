@@ -29,7 +29,7 @@ function Home() {
           
           
           <div className="text-center font-serif">
-            <Link href="/news">
+            <Link href="/">
           <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mr-3">
                NEWS
         </button>
