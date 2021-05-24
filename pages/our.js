@@ -1,10 +1,14 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import Head from 'next/head';
 
 function Our() {
     return (
          <div className="bg-black text-white">
+            <Head>
+            <title>Our</title>
+        </Head>
             <div className="space y-20 sm:space-y-32 md:space-y-40 lg:space-y-44 overflow-hidden">
                 <header className="relative z-10 max-w-screen-lg xl:max-w-screen-xl mx-auto">
 
