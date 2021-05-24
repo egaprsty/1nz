@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Typewriter from 'typewriter-effect';
 import Aos from 'aos';
+import Head from 'next/head';
 
 
 
@@ -14,6 +15,9 @@ function Home() {
   }
   return (
     <div className="bg-black text-white">
+      <Head>
+      <title>INDEPENDENT</title>
+    </Head>
       <div className="space y-20 sm:space-y-32 md:space-y-40 lg:space-y-44 overflow-hidden">
         <header className="relative z-10 max-w-screen-lg xl:max-w-screen-xl mx-auto">
           <div className="text-center font-bold font-serif text-4xl mt-10">
