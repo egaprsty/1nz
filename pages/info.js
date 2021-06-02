@@ -7,7 +7,7 @@ function Info() {
             <Head>
                 <title>Info</title>
             </Head>
-            <p>Under maintened</p>
+            <p>SEDANG DI MAINTENANCE</p>
         </div>
     )
 }
